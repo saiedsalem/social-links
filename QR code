@@ -1,0 +1,10 @@
+import qrcode
+
+# The GitHub URL you want to encode
+https://saiedsalem.github.io/social-links/
+
+# Generate the QR code
+img = qrcode.make(github_url)
+
+# Save the QR code image
+img.save("github_qr_code.png")
