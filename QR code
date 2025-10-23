@@ -1,4 +1,5 @@
 import qrcode
+pip install qrcode[pil]
 
 # The GitHub URL you want to encode
 https://saiedsalem.github.io/social-links/
